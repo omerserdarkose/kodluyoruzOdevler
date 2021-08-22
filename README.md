@@ -9,7 +9,12 @@ Kodluyoruz Front-End eğitimi boyunca yapacağım denemeler kapsamında oluştur
 - branch ismi degistirme ve eskisini github uzerinden kaldirma  
 git branch -m old_branch new_branch         // Rename branch locally    
 git push origin :old_branch                 // Delete the old branch  
-git push origin new_branch                  // Push new branch
+git push origin new_branch                  // Push new branch  
+-  head branch icin isim degistirme sonrasi gerekli  
+git branch -m master main   //isim degisti  
+git fetch origin  
+git branch -u origin/main main  
+git remote set-head origin -a  
 
 - Commit yazarken dikkat edilmesinde fayda var  
 
