@@ -10,3 +10,12 @@ Kodluyoruz Front-End eğitimi boyunca yapacağım denemeler kapsamında oluştur
 git branch -m old_branch new_branch         // Rename branch locally    
 git push origin :old_branch                 // Delete the old branch  
 git push origin new_branch                  // Push new branch
+
+- Commit yazarken dikkat edilmesinde fayda var  
+
+  - başlığı emir kipi ile yaz,
+  - birden fazla kisi ile birlikte calisilmis ama tek kisi commitlemisse yardimci olanlari da eklemekte fayda var,  
+```
+Co-authored-by: Foo Bar <foo.bar@example.com>
+Co-authored-by: John Bob <john.bob@example.com>
+```
