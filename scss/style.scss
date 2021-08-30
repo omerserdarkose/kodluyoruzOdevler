@@ -1,0 +1,23 @@
+$jumbotronBgColor: #e9ecef;
+
+@mixin font-family($name, $type, $size) {
+  font-family: $name, $type;
+  font-size: $size;
+}
+
+@mixin carousel-size($width) {
+  width: $width;
+}
+
+.ff-cinzel {
+  @include font-family("Cinzel Decorative", "cursive", 40px);
+}
+.ff-qwigley {
+  @include font-family("Qwigley,cursive", "cursive", 40px);
+}
+.ff-windsong {
+  @include font-family("WindSong,cursive", "cursive", 40px);
+}
+.bg-jumbotron {
+  background-color: $jumbotronBgColor;
+}

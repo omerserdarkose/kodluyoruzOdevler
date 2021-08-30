@@ -4,19 +4,23 @@
   box-sizing: border-box;
 }
 
+.card-resim {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
 h1 {
   margin-top: 1em;
 }
-
 .tt {
   text-transform: uppercase;
 }
 
-.tt-c{
-    text-transform: capitalize;
+.tt-c {
+  text-transform: capitalize;
 }
 
-.fw-b{
+.fw-b {
   font-weight: bold;
 }
 .m-1 {
@@ -60,10 +64,11 @@ h1 {
   color: purple;
 }
 
-.lst{
-    list-style-type:square;    
+.lst {
+  list-style-type: square;
 }
 
-#vizyon::first-letter,#misyon::first-letter {
+#vizyon::first-letter,
+#misyon::first-letter {
   font-size: 200%;
 }
