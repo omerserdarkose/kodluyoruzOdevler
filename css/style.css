@@ -1,140 +1,37 @@
-.navbarbg {
-  height: 55px;
-  background-color: white;
-}
-
-input.searche {
-  height: 36px;
-  max-width: 500px;
-  background-color: #eef3f8;
-  border: 0;
-}
-
-input.searche::placeholder {
-  font-size: 14px;
-  color: gray;
-  background-image: url(/assets/search-solid.svg);
-  background-blend-mode: multiply;
-  background-position: left;
-  background-repeat: no-repeat;
-  background-size: 8%;
-  text-indent: 1rem;
-}
-
-.body {
-  padding: 0;
-  margin: 0;
-  background-color: #f3f2ef;
-  box-sizing: border-box;
-}
-
-.menutext {
-  font-size: 12px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
-  color: gray;
-  margin-top: 5px;
-  font-weight: 400;
-}
-
-.menutext:hover {
-  color: black;
-}
-
-button.mediatext {
-  color: #000000;
-}
-
-button.mediatext:hover {
-  color: #ffffff;
-}
-
-.mediatext {
-  font-size: 15px;
-  font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #5f5f5f;
-}
-
-i {
-  color: gray;
-  margin-top: 8px;
-}
-i:hover {
-  color: black;
-}
-
-input.content {
-  border-radius: 40px;
-  height: 45px;
-}
-input.content::placeholder {
-  font-weight: bolder;
-  font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
-  background-image: url(/bootstraplinkedinclone/assets/edit-regular.svg);
-  background-repeat: no-repeat;
-  background-size: auto;
-}
-
-div.card {
-  border-radius: 10px;
-}
-
-.header {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  font-weight: bolder;
-}
-
-.view {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: 11px;
-  font-weight: bold;
-  color: #5f5f5f;
-}
-
-.categories {
-  font-size: 13px;
-  font-weight: bold;
-  color: #0a66c2;
-}
-
-li {
-  font-size: 14px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: bold;
-}
-
-.link {
-  font-size: 12px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  color: #5f5f5f;
-}
-
-.postphoto {
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-}
-.posttext {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: bold;
-  font-size: 14px;
-  margin-left: 8px;
-}
-
-.btn-bg {
-  background-color: var(--color-background-none);
-  color: var(--color-text-low-emphasis-shift);
-  border: 2px solid gray;
-  padding: 2px 15px;
-}
-.btn-bg:hover {
-  background-color: rgb(0 0 0 / 20%) !important;
-  color: rgb(0 0 0 / 60%) !important;
-  box-shadow: inset 0 0 0 2px var(--color-border) !important;
-}
+body {
+    background: black;
+  }
+  
+  .clock {
+    position: relative;
+    text-align: center;
+    color: #e98208;
+    font-size: 60px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 7px;
+  }
+  
+  .text1 {
+    position: relative;
+    text-align: center;
+    color: #e98208;
+    font-size: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 7px;
+  }
+  
+  .text2 {
+    position: relative;
+    text-align: center;
+    color: #e98208;
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 7px;
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+  
+   img {
+       margin-top: 120px;
+       width: 17%;
+  }
